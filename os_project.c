@@ -75,10 +75,7 @@ void main()
 
 	int wait_final, turnaround_final,min;
 	float wait_avg,turnaround_avg;
-
-
-	
-	 printf("\n\t\tAfter Sorting According To Arrival Time And Burst Time:\n\n\t\tProcess	 Burst time 	Arrival time  \n\n");
+	printf("\n\t\tAfter Sorting According To Arrival Time And Burst Time:\n\n\t\tProcess	 Burst time 	Arrival time  \n\n");
 	for(i=0;i<n;i++)
 	{
 		printf("  \t\t  P[%d] 		%d 		%d     \n",p[i].pid,p[i].burst_time,p[i].arrival_time);//,p[i].waiting_time,p[i].turnaround_time);
