@@ -8,3 +8,4 @@ indefinite postponement. The jobs that have spent a long time waiting compete ag
 estimated to have short run times. The priority can be computed as :
 Priority = 1+ Waiting time / Estimated run time
 Write a program to implement such an algorithm.
+  
