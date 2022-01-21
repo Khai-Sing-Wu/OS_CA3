@@ -41,17 +41,17 @@ void main()
    printf("\n\t\tAfter Sorting According To Arrival Time: \n\n\t\tProcess	 Burst time 	Arrival time  \n\n");
 	for(i=0;i<n;i++)
 	{
-		printf("  \t\t  P[%d] 		%d 		%d     \n",p[i].pid,p[i].burst_time,p[i].arrival_time);
+		printf("  \t\t  P[%d] 		%d 		%d     \n", p[i].pid , p[i].burst_time , p[i].arrival_time );
 	}
 	
 	//checking for duplicate values of Arrival time
-	int c=0,k,min_arrival_time;
-	for(k=0;k<n;k++)
+	int c=0 , k,min_arrival_time;
+	for(k=0 ; k<n ; k++)
 	{	c=0;
-		min_arrival_time=p[k].arrival_time;
-		for(i=k+1;i<n;i++)
+		min_arrival_time = p[k].arrival_time;
+		for(i=k+1 ; i<n ; i++)
 		{
-			if(p[i].arrival_time == min_arrival_time)
+			if( p[i].arrival_time == min_arrival_time)
 				c++;
 			else
 				break;
